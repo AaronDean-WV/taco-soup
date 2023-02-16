@@ -129,3 +129,41 @@ for(let i=0; i < sentenceArray.lngeth; i++){
 }
 
 console.log(cowSentence)
+
+const beatles = {
+   albums: ["Abbey Road", "Sgt Peppers Lonely Heart's Club Band", "Revolver", "Magical Mystery Tour"],
+   history: {
+       formed: 1960,
+       disbanded: 1970
+   },
+   members: [
+       {
+           name: "George Harrison",
+           birth: 1943,
+           death: 2001
+       },
+       {
+           name: "Paul McCartney",
+           birth: 1942,
+           death: null
+       },
+       {
+           name: "John Lennon",
+           birth: 1940,
+           death: 1980
+       },
+       {
+           name: "Ringo Starr",
+           birth: 1940,
+           death: null
+       }
+   ]
+}
+// Output the following values to the terminal.
+
+console.log(`${beatles.members[0].name} was in the Beatles from ${beatles.history.formed} to ${beatles.history.disbanded}. He was born in ${beatles.members[0].birth}. He contributed heavily to the ${beatles.albums[0]},${beatles.albums[1]},${beatles.albums[2]}${beatles.albums[3]} Album,.`);
+console.log(`${beatles.members[1].name} was in the Beatles from ${beatles.history.formed} to ${beatles.history.disbanded}. He was born in ${beatles.members[1].birth}. He contributed heavily to the ${beatles.albums[0]},${beatles.albums[1]},${beatles.albums[2]}${beatles.albums[3]} Album,.`);
+console.log(`${beatles.members[2].name} was in the Beatles from ${beatles.history.formed} to ${beatles.history.disbanded}. He was born in ${beatles.members[2].birth}. He contributed heavily to the ${beatles.albums[0]},${beatles.albums[1]},${beatles.albums[2]}${beatles.albums[3]} Album,.`);
+console.log(`${beatles.members[3].name} was in the Beatles from ${beatles.history.formed} to ${beatles.history.disbanded}. He was born in ${beatles.members[3].birth}. He contributed heavily to the ${beatles.albums[0]},${beatles.albums[1]},${beatles.albums[2]}${beatles.albums[3]} Album,.`);
+
+// Please note that these values are not correct. They're just placeholders that you will need to correctly fill out. 
